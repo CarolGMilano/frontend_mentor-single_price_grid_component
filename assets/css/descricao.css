@@ -1,0 +1,22 @@
+.descricao {
+    background-color: var(--branco);
+}
+
+.descricao__titulo {
+    color: var(--ciano);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.descricao__subtitulo {
+    color: var(--lima);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.descricao__texto {
+    color: var(--cinza_azulado);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4rem;
+}

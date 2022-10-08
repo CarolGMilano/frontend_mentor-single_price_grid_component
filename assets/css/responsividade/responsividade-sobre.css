@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px) {
+    .sobre__titulo {
+        font-size: 18px;
+    }
+
+    .sobre__item--link {
+        font-size: 15px;
+        transition: .3s;
+    }
+
+    .sobre__item--link:hover {
+        color: var(--lima);
+    }
+}

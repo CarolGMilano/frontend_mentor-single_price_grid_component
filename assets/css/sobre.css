@@ -1,0 +1,22 @@
+.sobre {
+    background-color: var(--ciano_claro);
+    grid-area: sobre;
+}
+
+.sobre__titulo {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sobre__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: .2rem;
+}
+
+.sobre__item--link {
+    color: var(--cinza_claro);
+    font-size: 13px;
+    font-weight: 400;
+}

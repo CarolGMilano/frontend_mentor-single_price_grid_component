@@ -1,0 +1,33 @@
+@import url('container.css');
+@import url('descricao.css');
+@import url('contratar.css');
+@import url('sobre.css');
+@import url('responsividade/responsividade-container.css');
+@import url('responsividade/responsividade-descricao.css');
+@import url('responsividade/responsividade-contratar.css');
+@import url('responsividade/responsividade-sobre.css');
+
+:root {
+    --ciano: hsl(179, 62%, 43%);
+    --ciano_claro: hsl(179, 47%, 51%);
+    --cinza_azulado: hsl(218, 22%, 67%);
+    --cinza_claro: hsl(204, 43%, 93%);
+    --lima: hsl(71, 73%, 54%);
+    --lima_escuro: hsla(71, 73%, 54%, 0.767);
+    --branco: hsl(0, 0%, 100%);
+
+    --fonte: 'Karla', sans-serif;
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: var(--cinza_claro);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

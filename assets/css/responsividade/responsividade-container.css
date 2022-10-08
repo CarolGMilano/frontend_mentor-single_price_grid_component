@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 650px;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "descricao descricao"
+            "contratar sobre"
+            ;
+    }
+
+    .box {
+        padding: 2.5rem;  
+    }
+}

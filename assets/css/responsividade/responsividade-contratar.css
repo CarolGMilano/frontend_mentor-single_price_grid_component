@@ -1,0 +1,38 @@
+@media screen and (min-width: 600px) {
+    .contratar {
+        grid-area: contratar;
+        justify-content: space-around;
+    }
+
+    .contratar__titulo {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .contratar__container {
+        row-gap: .3rem;
+    }
+
+    .contratar__preco {
+        font-size: 28px;
+    }
+
+    .preco__mensal {
+        font-size: 16px;
+    }
+
+    .contratar__texto {
+        font-size: 16px;
+    }
+
+    .contratar__btn {
+        padding: 1rem;
+        font-weight: 400;
+        transition: .3s;
+    }
+
+    .contratar__btn:hover {
+        background-color: var(--lima_escuro);
+        cursor: pointer;
+    }
+}
